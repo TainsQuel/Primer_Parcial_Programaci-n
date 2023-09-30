@@ -24,5 +24,6 @@ public class Menu_Pausa : MonoBehaviour
     public void menu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
     }
 }

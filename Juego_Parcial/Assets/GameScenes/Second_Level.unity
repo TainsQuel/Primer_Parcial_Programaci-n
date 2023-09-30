@@ -3997,6 +3997,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1707709422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 872190117156830037, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+  m_PrefabInstance: {fileID: 1813089004}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3d090ba3c006840aeaf6894fca1bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1813089004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4005,6 +4016,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 182301531146422576, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 182301531146422576, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 683577607504404439, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4088,6 +4107,14 @@ PrefabInstance:
     - target: {fileID: 2069751186370024747, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
       propertyPath: m_Name
       value: Pause_menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447801140546101257, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1707709422}
+    - target: {fileID: 7447801140546101257, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Pause
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

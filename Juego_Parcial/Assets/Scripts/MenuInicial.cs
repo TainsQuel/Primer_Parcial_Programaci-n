@@ -8,11 +8,13 @@ public class MenuInicial : MonoBehaviour
   public void Escena1()
     {
         SceneManager.LoadScene(2);
+        Time.timeScale = 1f;
     }
 
     public void Escena2()
     {
         SceneManager.LoadScene(3);
+        Time.timeScale = 1f;
     }
 
     public void Salir()

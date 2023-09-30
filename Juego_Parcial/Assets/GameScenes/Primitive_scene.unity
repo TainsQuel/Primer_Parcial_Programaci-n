@@ -370,9 +370,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1917123285580297031, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2069751186370024747, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
       propertyPath: m_Name
       value: Pause_menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176328631493290559, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521876413623838493, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 831
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521876413623838493, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -476
+      objectReference: {fileID: 0}
+    - target: {fileID: 7006722857913682373, guid: 7d6f2ab2d131dac41816217ad2ceb1cc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
